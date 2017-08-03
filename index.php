@@ -30,7 +30,7 @@
 		$params['limit'] = 1000;
 	}
 	
-	// exit w/error if negative offset or limit specified	
+	// die w/error if negative offset or limit specified	
 	if($params['offset'] < 0 || $params['limit'] < 0){
 		die("Error - invalid parameter value\n");
 	}
